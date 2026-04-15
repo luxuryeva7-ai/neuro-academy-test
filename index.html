@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Нейро Академия — Тестовые Уровни</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #050510; color: #fff; font-family: 'Space Grotesk', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 40px 20px; }
+h1 { font-size: 2em; margin-bottom: 10px; }
+h1 span { color: #00f5ff; }
+.subtitle { color: #888; margin-bottom: 40px; font-size: 1.1em; }
+.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 900px; width: 100%; }
+.level-card { background: linear-gradient(135deg, #0a0a2a, #111133); border: 1px solid #00f5ff33; border-radius: 16px; padding: 24px; cursor: pointer; transition: all 0.3s; }
+.level-card:hover { border-color: #00f5ff; transform: translateY(-4px); box-shadow: 0 8px 30px #00f5ff22; }
+.level-num { color: #00f5ff; font-size: 0.9em; margin-bottom: 8px; }
+.level-title { font-size: 1.3em; margin-bottom: 8px; }
+.level-desc { color: #999; font-size: 0.9em; line-height: 1.5; }
+.badge { display: inline-block; background: #ff00aa33; color: #ff00aa; padding: 4px 10px; border-radius: 8px; font-size: 0.75em; margin-top: 12px; }
+.badge.ready { background: #00f5ff33; color: #00f5ff; }
+a { text-decoration: none; color: inherit; }
+.footer { margin-top: 40px; color: #555; font-size: 0.8em; }
+</style>
+<link href="https://fonts.bunny.net/css?family=space-grotesk:400,700" rel="stylesheet">
+</head>
+<body>
+<h1>Нейро <span>Академия</span> — Тест</h1>
+<p class="subtitle">Тестовая площадка для новых уровней</p>
+
+<div class="levels">
+  <a href="level_neural_network.html">
+    <div class="level-card">
+      <div class="level-num">УРОВЕНЬ 7</div>
+      <div class="level-title">🧠 Neural Network Builder</div>
+      <div class="level-desc">Построй нейросеть! Соедини нейроны правильно чтобы восстановить ИИ-систему корабля.</div>
+      <div class="badge">⏳ Генерируется на Star...</div>
+    </div>
+  </a>
+
+  <div class="level-card" style="opacity: 0.4; cursor: default;">
+    <div class="level-num">УРОВЕНЬ 8</div>
+    <div class="level-title">🎯 Data Labeler</div>
+    <div class="level-desc">Научи ИИ различать объекты — размечай данные перетаскиванием картинок в правильные категории.</div>
+    <div class="badge">🔒 Скоро</div>
+  </div>
+
+  <div class="level-card" style="opacity: 0.4; cursor: default;">
+    <div class="level-num">УРОВЕНЬ 9</div>
+    <div class="level-title">🛡️ Bias Detector</div>
+    <div class="level-desc">Найди предвзятость в решениях ИИ — исправь ошибки алгоритма пока не поздно.</div>
+    <div class="badge">🔒 Скоро</div>
+  </div>
+</div>
+
+<p class="footer">Тестовая версия — не для публикации</p>
+</body>
+</html>
