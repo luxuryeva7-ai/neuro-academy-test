@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Neural Network Builder — Нейро Академия</title>
 <style>
-body { background: #050510; color: #fff; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: sans-serif; }
-h1 { color: #00f5ff; }
-p { color: #888; margin-top: 10px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #050510; color: #fff; font-family: 'Space Grotesk', sans-serif; min-height: 100vh; display: flex; flex-direction: column; }
+.header { padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; }
+.back { color: #00f5ff; text-decoration: none; font-size: 0.9em; }
+.back:hover { text-decoration: underline; }
+.title { color: #fff; font-size: 1.1em; }
+.badge { color: #ff00aa; font-size: 0.8em; }
+.game-container { flex: 1; width: 100%; }
+.game-container iframe { width: 100%; height: calc(100vh - 50px); border: none; }
 </style>
+<link href="https://fonts.bunny.net/css?family=space-grotesk:400,700" rel="stylesheet">
 </head>
 <body>
-<div style="text-align:center">
-<h1>🧠 Neural Network Builder</h1>
-<p>Сюда вставим код из Star когда будет готов</p>
-<p><a href="index.html" style="color:#ff00aa">← Назад к уровням</a></p>
+<div class="header">
+  <a href="index.html" class="back">← Назад к уровням</a>
+  <span class="title">🧠 Neural Network Builder</span>
+  <span class="badge">ТЕСТ</span>
+</div>
+<div class="game-container">
+  <iframe src="https://buildwithstar.com/games/df53b4e8-81f7-4305-8142-f4a1bd6b1506/embed" allowfullscreen></iframe>
 </div>
 </body>
 </html>
